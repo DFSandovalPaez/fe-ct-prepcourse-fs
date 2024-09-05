@@ -5,6 +5,11 @@ function saludo(idioma) {
   // Si "idioma" es "ingles", devuelve "Hello!".
   // Si "idioma" no es ninguno de los anteriores o es `undefined`, devuelve "Hola!".
   // Tu código:
+  let lengua = "Hola!";
+  if (idioma === "aleman") lengua = "Guten Tag!";
+  if (idioma === "mandarin") lengua = "Ni Hao!";
+  if (idioma === "ingles") lengua = "Hello!";
+  return lengua;
 }
 
 module.exports = saludo;
